@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bamboo Choice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <a href="#" class="text-2xl font-bold">BAMBOO CHOICE</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-gray-600">MEN</a>
+                    <a href="#" class="hover:text-gray-600">WOMEN</a>
+                    <a href="#" class="hover:text-gray-600">COLLECTIONS</a>
+                    <a href="#" class="hover:text-gray-600">NEW ARRIVALS</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                <button class="md:hidden">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative">
+        <div class="h-96 bg-gray-200 flex items-center justify-center">
+            <h1 class="text-4xl font-bold">SUMMER COLLECTION 2023</h1>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-12 container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">SHOP BY CATEGORY</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-gray-100 h-64 rounded-lg flex items-center justify-center">
+                <h3 class="text-xl font-semibold">T-SHIRTS</h3>
+            </div>
+            <div class="bg-gray-100 h-64 rounded-lg flex items-center justify-center">
+                <h3 class="text-xl font-semibold">HOODIES</h3>
+            </div>
+            <div class="bg-gray-100 h-64 rounded-lg flex items-center justify-center">
+                <h3 class="text-xl font-semibold">ACCESSORIES</h3>
+            </div>
+            <div class="bg-gray-100 h-64 rounded-lg flex items-center justify-center">
+                <h3 class="text-xl font-semibold">COLLECTIONS</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">FEATURED PRODUCTS</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Product Cards -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-64 bg-gray-200"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold">Graphic T-Shirt</h3>
+                        <p class="text-gray-600">₹599</p>
+                    </div>
+                </div>
+                <!-- Repeat product cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">ABOUT US</h3>
+                    <p>Be The Unique You:) We provide Customized T shirts at reasonable price like never before .</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">HELP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">FAQs</a></li>
+                        <li><a href="#" class="hover:underline">Shipping</a></li>
+                        <li><a href="#" class="hover:underline">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">CONTACT</h3>
+                    <p>hello@bamboochoice.com</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">NEWSLETTER</h3>
+                    <div class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l text-black">
+                        <button class="bg-red-500 px-4 py-2 rounded-r">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p>© 2023 Bamboo Choice. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

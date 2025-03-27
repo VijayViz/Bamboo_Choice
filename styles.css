@@ -1,0 +1,66 @@
+/* Custom styles that extend Tailwind */
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Mobile menu animation */
+.mobile-menu {
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+
+.mobile-menu.active {
+    transform: translateX(0);
+}
+
+/* Hero carousel animations */
+.carousel-slide {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Button animations */
+.cta-button {
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Newsletter form focus */
+.newsletter-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.5);
+}
